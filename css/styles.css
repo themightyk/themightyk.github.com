@@ -1,0 +1,53 @@
+header, section {
+	width: 781px;
+	margin: 0 auto;
+}
+header a {
+	display: block;
+	background: url('../images/mightyklogo.png') no-repeat;
+	width: 781px;
+	height: 168px;	
+}
+header span {
+	display: none;
+}
+
+section {
+	margin-top:100px;
+}
+
+div.middle {
+	margin:0 auto;
+	width:640px;
+}
+
+div.left {
+	float:left;
+}
+
+div.clear {
+	clear:both;
+}
+
+button {
+	border: none;
+	background: none;
+	color: #3e494b;
+	text-transform: uppercase;
+	font-family: times;
+	font-size: 30px;
+	line-height: 23px;
+	text-align:justify;
+	cursor: pointer;
+}
+input {
+	height:52px;
+	width:350px;
+	border: 1px solid #3e494b;
+	padding-left: 40px;
+	font: normal 30px times;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: #cccecd;
+}
