@@ -1,3 +1,7 @@
+body {
+background: url('../images/themightyK_hintergrund.jpg') no-repeat;
+}
+
 header, section {
 	width: 781px;
 	margin: 0 auto;
@@ -23,6 +27,8 @@ div.middle {
 
 div.left {
 	float:left;
+    padding-top: 380px;
+
 }
 
 div.clear {
@@ -32,22 +38,36 @@ div.clear {
 button {
 	border: none;
 	background: none;
-	color: #3e494b;
-	text-transform: uppercase;
-	font-family: times;
+	color: #363b3d;
+	font-family: helvetica;
 	font-size: 30px;
 	line-height: 23px;
 	text-align:justify;
 	cursor: pointer;
-}
+    }
 input {
-	height:52px;
-	width:350px;
+	height:50px;
+	width:300px;
 	border: 1px solid #3e494b;
 	padding-left: 40px;
-	font: normal 30px times;
+	font: normal 25px helvetica;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	color: #cccecd;
+    text-align: center;
+}
+div.link {
+padding-top: 20px; 
+padding-left: 66px;
+font-size: 25px;
+font-family: helvetica;
+color: #363b3d;
+}
+#Facebook {
+    text-decoration: none;
+    color: #2b3031;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: helvetica;
 }
