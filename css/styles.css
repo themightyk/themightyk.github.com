@@ -3,6 +3,7 @@ body {
 	background-color: #DCDEDF;
 }
 
+/*
 header, section {
 	width: 781px;
 	margin: 0 auto;
@@ -16,20 +17,21 @@ header a {
 header span {
 	display: none;
 }
+*/
 
 section {
-	margin-top:100px;
+	width: 781px;
+	margin: 100px auto 0 auto;
 }
 
 div.middle {
-	margin:0 auto;
-	width:640px;
+	margin: 0 auto;
+	width: 640px;
 }
 
 div.left {
-	float:left;
-    padding-top: 380px;
-
+	float: left;
+  padding-top: 380px;
 }
 
 div.clear {
@@ -45,7 +47,7 @@ button {
 	line-height: 23px;
 	text-align:justify;
 	cursor: pointer;
-    }
+}
 input {
 	height:50px;
 	width:300px;
@@ -56,14 +58,16 @@ input {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	color: #cccecd;
-    text-align: center;
+  text-align: center;
 }
 div.link {
-padding-top: 20px; 
-padding-left: 66px;
-font-size: 25px;
-font-family: helvetica;
-color: #363b3d;
+	padding-top: 20px; 
+	font-size: 25px;
+	margin: 0 auto;
+	width: 640px;
+	font-family: helvetica;
+	color: #363b3d;
+	line-height: 24px;
 }
 #Facebook {
     text-decoration: none;
